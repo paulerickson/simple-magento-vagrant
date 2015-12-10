@@ -21,6 +21,7 @@ A VERY simple Magento environment provisioner for [Vagrant](http://www.vagrantup
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Install [Vagrant](http://www.vagrantup.com/)
 * Clone or [download](https://github.com/r-baker/simple-magento-vagrant/archive/master.zip) this repository to the root of your project directory `git clone https://github.com/r-baker/simple-magento-vagrant.git`
+* Download and extract Magento 1.9.1.1 and Magento Sample Data 1.9.1.0 into the project directory
 * In your project directory, run `vagrant up`
 
 The first time you run this, Vagrant will download the bare Ubuntu box image. This can take a little while as the image is a few-hundred Mb. This is only performed once.
